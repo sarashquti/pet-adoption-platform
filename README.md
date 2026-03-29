@@ -18,6 +18,7 @@ Members:
 - Kiara Dedaj (kdedaj23@epoka.edu.al)
 - Mateo Farrici (mfarrici23@epok.edu.al)
 - Iris Lushaj (ilushaj23@epoka.edu.al)
+- Sonia Selmanaj (sselmanaj23@epoka.edu.al)
 
 ## Features
 - Browse available pets
