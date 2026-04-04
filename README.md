@@ -16,7 +16,7 @@ Group D - Group No. 3
 Members:
 - Sara Shquti (sshquti23@epoka.edu.al)
 - Kiara Dedaj (kdedaj23@epoka.edu.al)
-- Mateo Farrici (mfarrici23@epok.edu.al)
+- Mateo Farrici (mfarrici23@epoka.edu.al)
 - Iris Lushaj (ilushaj23@epoka.edu.al)
 - Sonia Selmanaj (sselmanaj23@epoka.edu.al)
 
