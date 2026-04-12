@@ -1,0 +1,165 @@
+Development Model & Requirements
+Chosen Development Model
+Development Model: Agile
+Justification:
+The Agile model was chosen because it supports flexibility, continuous improvement, and effective teamwork. It allows the team to adapt to changes, enhance features over time, and receive feedback throughout the development process.
+ 
+User Requirements
+Stakeholders
+•	End Users (Adopters): Individuals who want to adopt pets. They can browse, search, book adoption meetings, and list pets.
+•	Animal Shelters: Organizations that upload and manage pet listings.
+•	Admin: Responsible for managing the platform, users, and pet listings.
+User Stories
+•	As an adopter, I want to register an account so that I can access adoption features.
+•	As an adopter, I want to log in so that I can manage my profile and activities.
+•	As an adopter, I want to view pet details so that I can learn more before adopting.
+•	As an adopter, I want to save pets to favorites so that I can review them later.
+•	As an adopter, I want to book an adoption appointment so that I can meet the pet in person.
+•	As an adopter, I want to leave reviews so that I can share my experience with others.
+•	As an adopter, I want to read reviews so that I can trust shelters or pet owners.
+•	As an adopter, I want to see ratings so that I can choose reliable shelters.
+•	As an adopter, I want to make donations so that I can help animals in need.
+•	As an adopter, I want to view events so that I can attend adoption fairs or meetups.
+ 
+Functional Requirements
+Description
+•	The system shall allow users to register with a name, email, and password.
+•	The system shall allow users to log in and log out.
+•	The system shall validate user email and password (minimum 8 characters including a number).
+•	The system shall provide a real-time search bar for pets.
+•	The system shall allow users to sort results (Newest, Name A–Z).
+•	The system shall display pets in a grid layout.
+•	The system shall allow users to view detailed information about a pet.
+•	The system shall display pet details (age, breed, health, story).
+•	The system shall allow users to save pets to Favorites.
+•	The system shall allow users to book an adoption appointment.
+•	The system shall provide a calendar for selecting date and time.
+•	The system shall store and display user bookings.
+•	The system shall allow users to add and read reviews.
+•	The system shall display ratings for shelters or owners.
+•	The system shall allow users to make donations.
+•	The system shall manage events (adoption fairs, meetups).
+•	The system shall allow users to RSVP to events.
+•	The system shall allow users to update their profile.
+•	The system shall send and display notifications.
+•	The system shall notify users about new pet listings or updates.
+Acceptance Criteria
+Feature: User Registration and Login
+•	User enters valid email and password
+•	System verifies credentials
+•	User is redirected after login
+•	Error message is shown for invalid login
+Feature: Donations
+•	Users can view pets eligible for donation
+•	Each pet profile includes a donation option
+•	Users can enter an amount before confirming
+Feature: Favorites
+•	Each pet displays a favorite (heart) button
+•	Users can add pets to favorites
+•	The button changes state after selection
+Feature: Bookings
+•	Users can create bookings with date and time
+•	Bookings are stored and linked to user accounts
+•	Users can view their bookings
+Feature: Search
+•	Search bar is visible on the pet listing page
+•	Users can search by keywords (name, breed, type, age)
+ 
+Non-Functional Requirements
+Description
+•	The system shall be user-friendly and easy to use
+•	The system shall provide a clear and trustworthy interface
+•	The system shall follow a mobile-first responsive design
+•	The system shall work on mobile, tablet, and desktop devices
+•	The system shall support real-time search (~300ms debounce)
+•	The system shall include fast animations (100–300ms)
+•	The system shall display loading states and animations
+•	The system shall provide clear error messages
+•	The system shall be reliable with minimal failures
+•	The system shall ensure data security through authentication
+•	The system shall support lazy loading for performance
+•	The system shall maintain consistent UI structure
+•	The system shall be scalable
+•	The system shall support multiple web browsers
+•	The system shall provide visual feedback (hover, success states)
+•	The system shall include basic accessibility features
+•	The system shall ensure persistent data storage
+•	The system shall maintain saved favorites
+•	The system shall provide clear navigation
+•	The system shall respond quickly to user actions
+Acceptance Criteria
+Feature: The system shall be user-friendly and easy to use. 
+•	Users can navigate without external help
+•	Interface uses clear labels and buttons
+•	Key features are accessible within a few clicks
+Feature: The system shall operate correctly on mobile, tablet, and desktop devices. 
+•	Layout adapts to all screen sizes
+•	Features work on mobile, tablet, and desktop
+•	No horizontal scrolling is required
+•	UI elements are readable and properly sized
+Feature: The system shall provide clear and understandable error messages. 
+•	Errors are displayed when actions fail
+•	Messages are clear and non-technical
+•	Messages guide users to fix issues
+Feature: The system shall be compatible with different web browsers. Works on Chrome, Firefox, Safari, Edge
+•	Features behave consistently across browsers
+•	Layout remains consistent
+Feature: The system shall ensure persistent data storage (database or storage system). 
+•	Data is stored in a database or persistent system
+•	Data remains after restart or logout
+•	Users can retrieve saved data accurately
+
+Pet Adoption System
+• Architecture
+The system uses a three-tier architecture: the frontend handles user interaction, the backend processes requests and manages logic, and the database stores all application data.
+• Database Model
+The database model consists of multiple tables that manage different parts of the system, including users, pets, bookings, reviews, events, and donations. It also includes tables for financial and item donations, as well as features like favorites and notifications to support user interactions and activity tracking.
+• Relationships
+The system defines relationships between entities where a user can have multiple pets, make many bookings, write several reviews, save favorites, receive notifications, and make both financial and item donations, while each booking links a user with a specific pet.
+• Technologies Used
+The system uses HTML, CSS, and JavaScript for the frontend, JavaScript for the backend, and MySQL for the database, as these technologies offer a simple, scalable, and efficient solution.
+• User Interface
+The user interface includes key pages such as login and registration, pet browsing, pet details, and booking, all designed to be simple, user-friendly, and easy to navigate.
+
+Security
+•	Secure user authentication system
+•	Password encryption
+•	Role-based access control (admin vs user)
+•	User data and privacy protection
+
+Project Details
+Problem Statement
+Many people want to adopt pets but struggle to find reliable information about available animals and how to contact shelters or individuals offering pets for adoption. This makes the adoption process more difficult and slows down the chances of animals finding a home.
+Proposed Solution
+The Pet Adoption Platform is a digital platform that connects people who want to adopt pets with shelters or individuals who have animals available for adoption. The platform allows users to browse pets, view detailed information, and contact the responsible person easily.
+Project Aim
+The aim of this project is to develop a platform that simplifies the pet adoption process and helps animals find safe and loving homes.
+Project Objectives
+•	Create a user-friendly platform for pet adoption.
+•	Allow shelters or individuals to list pets available for adoption.
+•	Provide detailed information and photos for each pet.
+•	Allow users to search and filter pets.
+•	Enable communication between adopters and pet owners.
+
+Roles and Task Distribution
+•	Team Leader – Sara Shquti
+•	Project coordination
+•	- GitHub repository management
+•	- Description & Project Aim
+•	- Final review and submission
+•	Member – Kiara Dedaj
+•	Problem Statement
+•	- User Interface ideas 
+•	- Part of Features definition
+•	Member – Iris Lushaj
+•	Proposed Solution
+•	- System logic ideas (Backend concept)
+•	- Database structure idea
+•	Member – Mateo Farrici
+•	Application Description
+•	- Key Features (detailed explanation)
+•	- Testing planning
+•	Member – Sonia Selmanaj
+•	Project Objectives
+•	- Users & Use Cases
+•	- Documentation formatting
